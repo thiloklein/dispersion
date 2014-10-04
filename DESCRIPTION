@@ -1,0 +1,11 @@
+Package: dispersion
+Version: 0.1.2
+Title: Dispersion Statistics for Small Samples
+Author: Paul Kattuman, Thilo Klein, Jun Ma
+Maintainer: Paul Kattuman <pak13@cam.ac.uk>
+Description: This program generates dispersion measures P(S more equal than s)
+    and P(S less equal than s) for data vectors of size n. The approach is to
+    resample from the data vector, choosing 3 elements randomly, and find the
+    defined measures with S drawn from the uniform distribution on the unit
+    2-simplex, with bss resamples
+License: GPL (>= 2)
